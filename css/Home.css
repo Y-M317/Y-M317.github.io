@@ -1,0 +1,58 @@
+/* 一番最初のページ(Home)について */
+
+.title{
+	position: relative;
+	left: 10%;
+	width: 40%;
+	padding: 10px 0;
+	margin: 20px 150px;
+	text-align: center;
+	border-style: solid;
+}
+
+.Home_bun{
+	width: 70%;
+	padding: 10px;
+	margin: 0 100px;
+	text-align: left;
+	border-style: solid;
+}
+
+/* ここから一覧のページについて */
+
+table{
+	border: solid 1px;
+	border-collapse: collapse;
+}
+
+
+th, td{
+	padding: 5px;
+	border: solid 1px #000;
+	border-spacing: 0;
+	font-size: 25px;
+}
+
+thead th{
+	text-align: center;
+}
+
+th{
+	text-align: right;
+}
+
+td{
+	text-align: left;
+}
+
+.mondai_bun td{
+	text-size: 40px;
+}
+
+.Ash td{
+	background-color: #CCC;
+}
+
+#zukei{
+	text-align: center;
+}
