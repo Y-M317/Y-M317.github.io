@@ -1,0 +1,28 @@
+/* ほとんどのページで記述のあるclass, idのCSS */
+HTML #Home, body{
+	margin: 0;
+	padding: 0;
+}
+
+nav{
+	width: 15%;
+	height: 100%;
+	float: left;
+}
+
+header{
+	text-align: center;
+	border-bottom-style: solid;
+}
+
+.bunshou{
+	padding: 1%;
+	margin-left: 15%;
+	width: 83%;
+	border-left-style: solid;
+}
+
+#back_ichiran{
+	margin-left: 25%;
+	text-align: left;
+}
