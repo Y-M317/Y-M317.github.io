@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<HTML>
+	<head>
+		<meta charset = "UTF-8">
+		<title>大問[1], 小問(1)</title>
+		<link rel = "stylesheet" href = "./css/Kaitou.css">
+		<link rel = "stylesheet" href = "./css/Common.css">
+		<script type="text/javascript" async
+		  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_CHTML">
+		</script>
+	</head>
+
+	<body>
+		<header>
+			<h1>新潟県令和2年実施教員採用試験問題(数学科)解答・解説</h1>
+		</header>
+		<nav><br>
+			目次
+			<ul>
+				<li><a href = "shiken_2020_Home.html">Home</a></li>
+				<li><a href = "shiken_2020_ichiran.html">問題一覧</a></li>
+				<dl>
+					<dt>大問1</dt>
+					<dd><a href = "Answerq1-1.html#q1-1">1-1</a></dd> <dd>↑今ココ!!</dd>
+					<dd><a href = "Answerq1-2.html#q1-2">1-2</a></dd>
+					<dd><a href = "Answerq1-3.html#q1-3">1-3</a></dd>
+					<dd><a href = "Answerq1-4.html#q1-4">1-4</a></dd>
+					<dd><a href = "Answerq1-5.html#q1-5">1-5</a></dd>
+					<dd><a href = "Answerq1-6.html#q1-6">1-6</a></dd>
+					<dd><a href = "Answerq1-7.html#q1-7">1-7</a></dd>
+					<dd><a href = "Answerq1-8.html#q1-8">1-8</a></dd>
+					<dt><a href = "Answerq2.html#q2">大問2</a></dt>
+					<dd>2-1</dd>
+					<dd>2-2</dd>
+					<dt><a href = "Answerq3.html#q3">大問3</a></dt>
+					<dd>3-1</dd>
+					<dd>3-2</dd>
+					<dd>3-3</dd>
+					<dt><a href = "Answerq4.html#q4">大問4</a></dt>
+					<dd>4-1</dd>
+					<dd>4-2</dd>
+					<dt><a href = "Answerq5.html#q5">大問5</a></dt>
+					<dd>5-1</dd>
+					<dd>5-2</dd>
+				</dl>
+				<li><a href = "hosokusetsumei.html">補足説明</a></li> 
+			</ul>
+		</nav>		
+		<div class = "bunshou">
+			<section id = "q1-1">
+				<section>
+					<h2>問題</h2>
+					<p>3次方程式 \(x^3+7x+5=0\) の3つの解を \(\alpha\), \(\beta\), \(\gamma\) とするとき, 
+					   \(\alpha^3+\beta^3+\gamma^3\) の値を求めなさい。</p>
+				</section>
+				<section id = "houshin">
+					<section id = "Attention">
+						<h2>注目ポイント！</h2>
+						<p>方程式とその解が与えられている</p>
+					</section>
+					
+					<img src = "./image/arrow.png" width = "200" height = "100" alt = "⇒">
+					
+					<section id = "first_step">
+						<h2>解答への第一歩</h2>
+						<ul>
+						<li><strong><div class = "term"><a href = "hosokusetsumei.html">3次方程式の解と係数の関係</a></div></strong><p>
+						</ul>
+					</section>
+				</section>
+				<hr>
+				<section>
+					<h2>解説</h2>
+						<p>\(f(x)=x^3+7x+5\)とおく。<br>
+						与えられた方程式の解 \(\alpha, \beta, \gamma\) を代入すると,<br>
+						\(\begin{equation}
+						f(\alpha) = \alpha^3+7\alpha+5･･･①\\
+						f(\beta)  = \beta^3+7\beta+5･･･➁\\
+						f(\gamma) = \gamma^3+7\gamma+5･･･③
+						\end{equation}\)
+						となる。</p>
+						<p>ここで、\(f(\alpha) = 0, f(\beta) = 0, f(\gamma) = 0 \) であるから,<br>
+						①～③を足すと<br>
+						\(\begin{eqnarray}
+						\alpha^3 + \beta^3 + \gamma^3 + 7(\alpha + \beta + \gamma) + 15 &=& 0 \\
+														  \alpha^3 + \beta^3 + \gamma^3 &=& -7(\alpha + \beta + \gamma) - 15
+						\end{eqnarray}\)</p>
+						<p>ここで<a href = "hosokusetsumei.html">3次方程式の解と係数の関係</a>より\(\alpha + \beta + \gamma = 0\)だから,<br>
+						\(\alpha^3 + \beta^3 + \gamma^3 = -7・0 - 15 = -15\)</p>
+				</section>
+				<hr>
+				<section>
+					<h2>別解</h2>
+					<p><a href = "#q1-1.hosoku">3次方程式の解と係数の関係</a>から, \(\alpha + \beta + \gamma = 0\), \(\alpha\beta + \beta\gamma + \gamma\alpha = 7\), \(\alpha\beta\gamma = -5\)
+					と分かる。<br>
+					このことを踏まえて, \(\alpha^3+\beta^3+\gamma^3\) を変形させると, <br>
+					\(\begin{eqnarray}
+						\alpha^3+\beta^3+\gamma^3 &=& (\alpha + \beta + \gamma)^3 - 3(\alpha\beta + \beta\gamma + \gamma\alpha)(\alpha + \beta + \gamma) + 3\alpha\beta\gamma\\
+												  &=& 0^3-3・7・0+3(-5)\\
+												  &=& -15
+						\end{eqnarray}
+					\)<br></p>
+
+				</section>
+			</section>
+			<hr>		
+			<a href = "shiken_2020_ichiran.html"><h2 id = "back_ichiran">＞＞問題一覧ページに戻る＜＜</h1></a>
+		</div>
+	</body>
+</HTML>

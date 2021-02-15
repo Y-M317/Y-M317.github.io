@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<HTML>
+	<head>
+		<meta charset = "UTF-8">
+		<title>大問[1], 小問(5)</title>
+		<link rel = "stylesheet" href = "./css/Kaitou.css">
+		<link rel = "stylesheet" href = "./css/Common.css">
+		<script type="text/javascript" async
+		  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_CHTML">
+		</script>
+	</head>
+
+	<body>
+		<header>
+			<h1>新潟県令和2年実施教員採用試験問題(数学科)解答・解説</h1>
+		</header>
+		<nav><br>
+			目次
+			<ul>
+				<li><a href = "shiken_2020_Home.html">Home</a></li>
+				<li><a href = "shiken_2020_ichiran.html">問題一覧</a></li>
+				<dl>
+					<dt>大問1</dt>
+					<dd><a href = "Answerq1-1.html#q1-1">1-1</a></dd>
+					<dd><a href = "Answerq1-2.html#q1-2">1-2</a></dd>
+					<dd><a href = "Answerq1-3.html#q1-3">1-3</a></dd>
+					<dd><a href = "Answerq1-4.html#q1-4">1-4</a></dd>
+					<dd><a href = "Answerq1-5.html#q1-5">1-5</a></dd> <dd>↑今ココ!!</dd>
+					<dd><a href = "Answerq1-6.html#q1-6">1-6</a></dd>
+					<dd><a href = "Answerq1-7.html#q1-7">1-7</a></dd>
+					<dd><a href = "Answerq1-8.html#q1-8">1-8</a></dd>
+					<dt><a href = "Answerq2.html#q2">大問2</a></dt>
+					<dd>2-1</dd>
+					<dd>2-2</dd>
+					<dt><a href = "Answerq3.html#q3">大問3</a></dt>
+					<dd>3-1</dd>
+					<dd>3-2</dd>
+					<dd>3-3</dd>
+					<dt><a href = "Answerq4.html#q4">大問4</a></dt>
+					<dd>4-1</dd>
+					<dd>4-2</dd>
+					<dt><a href = "Answerq5.html#q5">大問5</a></dt>
+					<dd>5-1</dd>
+					<dd>5-2</dd>
+				</dl>
+				<li><a href = "hosokusetsumei.html">補足説明</a></li>
+			</ul>
+		</nav>		
+		<div class = "bunshou">
+			<section id = "q1-3">
+				<section>
+					<h2>問題</h2>
+					<p>曲線 \(y=x\log{x}\) に接し, 傾きが3である直線の方程式を求めなさい。</p>
+				</section>
+				<section id = "houshin">
+					<section id = "Attention">
+						<h2>注目ポイント！</h2>
+						<p>関数の接線を求める</p>
+					</section>
+					
+					<img src = "./image/arrow.png" width = "200" height = "100" alt = "⇒">
+					
+					<section id = "first_step">
+						<h2>解答への第一歩</h2>
+						<p><strong><div class = "term">関数を微分したものは傾きを表す</div></strong></p>
+					</section>
+				</section>
+				<hr>
+				<section>
+		<h1>解説</h1>
+		<p>\(f(x)=x\log{x}\) , 求める直線の方程式を\(y = 3x + b\)とおく,</p>
+		<strong>\(\begin{eqnarray}
+			f'(x) &=& x'\log{x} + x(\log{x})'   \\
+				  &=& \log{x} + x・\frac{1}{x}  \\
+				  &=& \log{x} + 1
+		\end{eqnarray}\)</strong>
+		<p>条件より, \(f'(x)=3\) すなわち, <em>\(\log{x} + 1 = 3\)</em><br>
+		これを解くと,</p>
+			<p><strong>\(x = e^2\)</strong></p>
+		<p>\(x = e^2\) を \(f(x)\) の式に代入すると,</p>
+		\(\begin{eqnarray}
+			f(x) &=& e^2\log{e^2} \\
+				 &=& 2e^2
+		\end{eqnarray}\)<br>
+		<p>ここで \(x, f(x)\) の値が分かった。\(y = f(x)\)であるから, <br>
+		これを求める直線の方程式 \(y\) に代入すると,</p>
+		</p>\(\begin{eqnarray}
+			2e^2 &=& 3・e^2+b   \\
+			b &=& -e^2
+		\end{eqnarray}\)</p>
+		<p>以上より、直線の方程式の切片が分かった。</p>
+		<p>求める方程式は, \(y = 3x - e^2\)</p>
+				<hr>
+			</section>
+			<hr>		
+			<a href = "shiken_2020_ichiran.html"><h2 id = "back_ichiran">＞＞問題一覧ページに戻る＜＜</h1></a>
+		</div>
+	</body>
+</HTML>

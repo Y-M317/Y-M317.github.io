@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<HTML>
+	<head>
+		<meta charset = "UTF-8">
+		<title>大問[1], 小問(2)</title>
+		<link rel = "stylesheet" href = "./css/Kaitou.css">
+		<link rel = "stylesheet" href = "./css/Common.css">
+		<script type="text/javascript" async
+		  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_CHTML">
+		</script>
+	</head>
+
+	<body>
+		<header>
+			<h1>新潟県令和2年実施教員採用試験問題(数学科)解答・解説</h1>
+		</header>
+		<nav><br>
+			目次
+			<ul>
+				<li><a href = "shiken_2020_Home.html">Home</a></li>
+				<li><a href = "shiken_2020_ichiran.html">問題一覧</a></li>
+				<dl>
+					<dt>大問1</dt>
+					<dd><a href = "Answerq1-1.html#q1-1">1-1</a></dd>
+					<dd><a href = "Answerq1-2.html#q1-2">1-2</a></dd> <dd>↑今ココ!!</dd>
+					<dd><a href = "Answerq1-3.html#q1-3">1-3</a></dd>
+					<dd><a href = "Answerq1-4.html#q1-4">1-4</a></dd>
+					<dd><a href = "Answerq1-5.html#q1-5">1-5</a></dd>
+					<dd><a href = "Answerq1-6.html#q1-6">1-6</a></dd>
+					<dd><a href = "Answerq1-7.html#q1-7">1-7</a></dd>
+					<dd><a href = "Answerq1-8.html#q1-8">1-8</a></dd>
+					<dt><a href = "Answerq2.html#q2">大問2</a></dt>
+					<dd>2-1</dd>
+					<dd>2-2</dd>
+					<dt><a href = "Answerq3.html#q3">大問3</a></dt>
+					<dd>3-1</dd>
+					<dd>3-2</dd>
+					<dd>3-3</dd>
+					<dt><a href = "Answerq4.html#q4">大問4</a></dt>
+					<dd>4-1</dd>
+					<dd>4-2</dd>
+					<dt><a href = "Answerq5.html#q5">大問5</a></dt>
+					<dd>5-1</dd>
+					<dd>5-2</dd>
+				</dl>
+				<li><a href = "hosokusetsumei.html">補足説明</a></li>
+			</ul>
+		</nav>		
+		<div class = "bunshou">
+			<section id = "q1-1">
+				<section>
+					<h2>問題</h2>
+					<p>\(\angle A=90^\circ\) である直角三角形 \(ABC\) において, \(AB=2\), \(CA=1\), \(\angle A\) の三等分線が
+						辺 \(BC\)と交わる点のうち \(B\) に近い点を \(D\) とする。
+						この時, \(AD\) の長さを求めなさい。</p>
+				</section>
+				<section id = "houshin">
+					<section id = "Attention">
+						<h2>注目ポイント！</h2>
+						<p>図形の条件が示されている。</p>
+					</section>
+					
+					<img src = "./image/arrow.png" width = "200" height = "100" alt = "⇒">
+					
+					<section id = "first_step">
+						<h2>解答への第一歩</h2>
+						<ul>
+						<li><strong><div class = "term">図形の問題なら、実際に近い状態の図形を作図する</div></strong><p>
+						</ul>
+					</section>
+				</section>
+				<hr>
+				<section>
+					<h2>解説</h2>
+					<img src = "./image/chokkakusankakukei.png" width = "391" height = "228" alt = "直角三角形"><br>
+					<p>正弦定理より, \(\triangle ADC\) において, </p>
+					<p>\(\frac{AD}{\sin{C}} = \frac{CD}{\sin{\frac{\pi}{3}}}\)</p>
+					<p>\(\angle CDA = \angle A + \angle B = 30^\circ + \angle B\)であるから，</p>
+					<p>\(
+						\begin{eqnarray}
+							\sin{\angle CDA} &=& \sin{(30^\circ + \angle B)}\\
+									 &=& \sin{30^\circ}\cos{\angle B} + \cos{30^\circ}\sin{\angle B}\\
+									 &=& \frac{1}{2}・\frac{2}{\sqrt{5}} + \frac{\sqrt{3}}{2}・\frac{1}{\sqrt{5}}\\
+									 &=& \frac{2 + \sqrt{3}}{2\sqrt{5}}
+						\end{eqnarray}
+					\)</p>
+				</section>
+					<p>また, \(\triangle ADC\)について, 正弦定理を利用すると, </p>
+		<p>\(
+			\begin{eqnarray}
+				\frac{AD}{\sin{C}} &=& \frac{1}{\sin{\angle CDA}}\\
+								AD &=& \frac{\sin{C}}{\sin{\angle CDA}}\\
+								   &=& \frac{2}{\sqrt{5}}・\frac{2\sqrt{5}}{2+\sqrt{3}}\\
+								   &=& \frac{4}{2+\sqrt{3}}\\
+								   &=& \frac{4(2-\sqrt{3})}{4-3}\\
+								   &=& 4(2-\sqrt{3})\\
+			\end{eqnarray}
+		\)</p>
+				<hr>
+			</section>
+			<hr>		
+			<a href = "shiken_2020_ichiran.html"><h2 id = "back_ichiran">＞＞問題一覧ページに戻る＜＜</h1></a>
+		</div>
+	</body>
+</HTML>

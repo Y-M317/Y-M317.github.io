@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<HTML>
+	<head>
+		<meta charset = "UTF-8">
+		<title>大問[4]</title>
+		<link rel = "stylesheet" href = "./css/Kaitou.css">
+		<link rel = "stylesheet" href = "./css/Common.css">
+		<script type="text/javascript" async
+		  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_CHTML">
+		</script>
+	</head>
+
+	<body id = "q4">
+		<header>
+			<h1>新潟県令和2年実施教員採用試験問題(数学科)解答・解説</h1>
+		</header>
+		<nav><br>
+			目次
+			<ul>
+				<li><a href = "shiken_2020_Home.html">Home</a></li>
+				<li><a href = "shiken_2020_ichiran.html">問題一覧</a></li>
+				<dl>
+					<dt>大問1</dt>
+					<dd><a href = "Answerq1-1.html#q1-1">1-1</a></dd>
+					<dd><a href = "Answerq1-2.html#q1-2">1-2</a></dd>
+					<dd><a href = "Answerq1-3.html#q1-3">1-3</a></dd>
+					<dd><a href = "Answerq1-4.html#q1-4">1-4</a></dd>
+					<dd><a href = "Answerq1-5.html#q1-5">1-5</a></dd>
+					<dd><a href = "Answerq1-6.html#q1-6">1-6</a></dd>
+					<dd><a href = "Answerq1-7.html#q1-7">1-7</a></dd>
+					<dd><a href = "Answerq1-8.html#q1-8">1-8</a></dd>
+					<dt><a href = "Answerq2.html#q2">大問2</a></dt>
+					<dd>2-1</dd>
+					<dd>2-2</dd>
+					<dt><a href = "Answerq3.html#q3">大問3</a></dt>
+					<dd>3-1</dd>
+					<dd>3-2</dd>
+					<dd>3-3</dd>
+					<dt><a href = "Answerq4.html#q4">大問4</a></dt> <dd>↑今ココ!!</dd>
+					<dd>4-1</dd>
+					<dd>4-2</dd>
+					<dt><a href = "Answerq5.html#q5">大問5</a></dt>
+					<dd>5-1</dd>
+					<dd>5-2</dd>
+				</dl>
+				<li><a href = "hosokusetsumei.html">補足説明</a></li>
+			</ul>
+		</nav>
+		
+		<div class = "bunshou">
+			<section>
+				<section>
+					<h2>問題</h2>
+					<p>[4] \(a\) を正の定数とする。複素数\(ω=\frac{z}{2}+\frac{a}{i}\)について, 次の(1), (2)に答えなさい。</p>
+					<p>(1) \(z\) を \(|z| \leqq 1\) を満たす実数とするとき, \(|ω|\) の最大値と最小値を求めなさい。</p>
+					<p>(2) \(z\) を \(|z| \leqq 1\) を満たす複素数とするとき, \(|ω|\) の最大値と最小値を求めなさい。</p>
+				</section>
+				<hr>
+				<h1>(1)</h1>
+				<section id = "houshin">
+					<section id = "Attention">
+						<h2>注目ポイント！</h2>
+						<p>\(z\)は実数</p>
+					</section>
+					
+					<img src = "./image/arrow.png" width = "200" height = "100" alt = "⇒">
+					
+					<section id = "first_step">
+						<h2>解答への第一歩</h2>
+						<p><strong><div class = "term">複素数平面上で考え、このとき \(z\) が実数であることに注意</div></strong></p>
+					</section>
+				</section>
+				
+				<section>
+					<h1>解説</h1>
+					<img src = "./image/4-1.png" width = "569" height = "455" alt = "複素数平面①">
+					<p>\(\large |ω| = \left|\frac{z}{2}+\frac{a}{i}\right| = \left|\frac{z}{2} -ai\right| = \frac{\left|z - 2ai\right|}{2}\)</p>
+					<p>\(a>0\)より<br>
+					\(2ai\)の点は虚軸上の原点より上の定点だから、<br>
+					求める\(\large |ω|\)の最大値, 最小値は \(\large \left|z\normalsize - 2ai\right|\) の最大, 最小を調べて求める。</p>
+					<p>ここで, \(z\) は実軸上の点 \(-1, 1\) の間であるから, <br>
+					最大値: \(\large\frac{\left|1 - 2ai\right|}{2} = \frac{\sqrt{4a^2 + 1}}{2}\)<br>
+					最小値: \(\large\frac{\left|0 - 2ai\right|}{2} = a\)</p>
+				<hr>
+				</section>
+				
+			<h1>(2)</h1>
+				<section id = "houshin">
+					<section id = "Attention">
+						<h2>注目ポイント！</h2>
+						<p>\(z\)は複素数</p>
+					</section>
+					
+					<img src = "./image/arrow.png" width = "200" height = "100" alt = "⇒">
+					
+					<section id = "first_step">
+						<h2>解答への第一歩</h2>
+						<p><strong><div class = "term">複素数平面上で考え、このとき \(z\) が複素数であることに注意</div></strong></p>
+					</section>
+				</section>
+				
+				<section>
+					<h1>解説</h1>
+					<img src = "./image/4-2.png" width = "569" height = "455" alt = "複素数平面②">
+					<p>(1)より\(\large |ω| = \frac{\left|z - 2ai\right|}{2}\)である。</p>
+					<p>条件より \(z\) は単位円の周上とその内部に存在するから、(1)と同様に考えて, <br>
+					最大値: \(\large\frac{\left|-i - 2ai\right|}{2} = \frac{2a + 1}{2}\)<br>
+					最小値: \(0 < 2a < i\) すなわち \(0 < a < \frac{i}{2}\) のとき \(0\)<br>
+					　　　	\(a>i\)のとき, \(\large\frac{\left|i - 2ai\right|}{2} = \frac{2a - 1}{2}\)</p>
+				<hr>
+				</section>
+			<a href = "shiken_2020_ichiran.html"><h2 id = "back_ichiran">＞＞問題一覧ページに戻る＜＜</h1></a>
+			</section>
+		</div>
+	</body>
+</HTML>

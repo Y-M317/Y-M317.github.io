@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<HTML>
+	<head>
+		<meta charset = "UTF-8">
+		<title>大問[1], 小問(7)</title>
+		<link rel = "stylesheet" href = "./css/Kaitou.css">
+		<link rel = "stylesheet" href = "./css/Common.css">
+		<script type="text/javascript" async
+		  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_CHTML">
+		</script>
+	</head>
+
+	<body>
+		<header>
+			<h1>新潟県令和2年実施教員採用試験問題(数学科)解答・解説</h1>
+		</header>
+		<nav><br>
+			目次
+			<ul>
+				<li><a href = "shiken_2020_Home.html">Home</a></li>
+				<li><a href = "shiken_2020_ichiran.html">問題一覧</a></li>
+				<dl>
+					<dt>大問1</dt>
+					<dd><a href = "Answerq1-1.html#q1-1">1-1</a></dd>
+					<dd><a href = "Answerq1-2.html#q1-2">1-2</a></dd>
+					<dd><a href = "Answerq1-3.html#q1-3">1-3</a></dd>
+					<dd><a href = "Answerq1-4.html#q1-4">1-4</a></dd>
+					<dd><a href = "Answerq1-5.html#q1-5">1-5</a></dd>
+					<dd><a href = "Answerq1-6.html#q1-6">1-6</a></dd>
+					<dd><a href = "Answerq1-7.html#q1-7">1-7</a></dd> <dd>↑今ココ!!</dd>
+					<dd><a href = "Answerq1-8.html#q1-8">1-8</a></dd>
+					<dt><a href = "Answerq2.html#q2">大問2</a></dt>
+					<dd>2-1</dd>
+					<dd>2-2</dd>
+					<dt><a href = "Answerq3.html#q3">大問3</a></dt>
+					<dd>3-1</dd>
+					<dd>3-2</dd>
+					<dd>3-3</dd>
+					<dt><a href = "Answerq4.html#q4">大問4</a></dt>
+					<dd>4-1</dd>
+					<dd>4-2</dd>
+					<dt><a href = "Answerq5.html#q5">大問5</a></dt>
+					<dd>5-1</dd>
+					<dd>5-2</dd>
+				</dl>
+				<li><a href = "hosokusetsumei.html">補足説明</a></li>
+			</ul>
+		</nav>
+		<div class = "bunshou">
+			<section id = "q1-7">
+				<section>
+					<h2>問題</h2>
+					<p>期待値が6, 分散が2の二項分布に従う確率変数を\(X\)とする。\(X=k\) となる確率を \(P_k\) とするとき, \(P_5\) は \(P_4\) の何倍か。</p>
+				</section>
+				<section id = "houshin">
+					<section id = "Attention">
+						<h2>注目ポイント！</h2>
+						<p>二項分布の確率変数が\(X = k\)</p>
+					</section>
+					
+					<img src = "./image/arrow.png" width = "200" height = "100" alt = "⇒">
+					
+					<section id = "first_step">
+						<h2>解答への第一歩</h2>
+						<p><strong><div class = "term">二項分布の期待値, 分散の式から \(n\) 回中成功する確率 \(p\) を調べる。</div></strong></p>
+					</section>
+				</section>
+				<hr>
+				<section>
+		<h1>解説</h1>
+		<p>この問題では, 二項分布の場合を考えるため、二項分布でのの期待値, 分散の公式を用いる。</p>
+		<p>二項分布での期待値・分散<br>
+		期待値: \(E(X)=np\)<br>
+		　分散: \(V(X)=np(1-p)\)
+		※n : 試行回数, p : 事象の確率</p>
+		<p>仮定から, \(E(X)=6\), \(V(X)=2\) であるから, <br>
+		\(\begin{eqnarray}
+						\left \{
+							\begin{array}{c}
+								np &=& 6         …①\\
+								np(1-p) &=& 2    …②
+							\end{array}
+						\right.
+					\end{eqnarray}\)<br>
+		これらの式を連立して解くと, \(p = \frac{2}{3}, n = 9\)と求まる。</p>
+		<p>以上より, これは9回試行して成功する確率が\(\frac{2}{3}\)という意味になる。</p>
+		<p>ここで確率変数が \(X=k\) というのは, ベルヌーイ試行を \(n\) 回行い \(k\) 回成功させるという意味だから, <br>
+		 \(\large P_k = _9C_k(\frac{2}{3})^k(\frac{1}{3})^{9-k}\)</p>
+		<p> \(k = 4\) のとき <br>
+			\(\large P_4 = _9C_4(\frac{2}{3})^4(\frac{1}{3})^5\)</p>
+		<p>\(k = 5\) のとき <br>
+			\(\large P_5 = _9C_5(\frac{2}{3})^5(\frac{1}{3})^4\)<br>
+		であるから</p>
+		<p>\(\begin{eqnarray}
+				\frac{P_5}{P_4} &=& \frac{\large _9C_5(\frac{2}{3})^5(\frac{1}{3})^4}{\large _9C_4(\frac{2}{3})^4(\frac{1}{3})^5} \\
+								&=& \frac{\large \frac{2}{3}}{\large \frac{1}{3}} \\
+								&=& 2
+		\end{eqnarray}\)</p>
+		<p>以上より, \(P_5 = 2P_4\) であるから, \(2\) 倍</p>
+				<hr>
+			</section>
+			<hr>		
+			<a href = "shiken_2020_ichiran.html"><h2 id = "back_ichiran">＞＞問題一覧ページに戻る＜＜</h1></a>
+		</div>
+	</body>
+</HTML>

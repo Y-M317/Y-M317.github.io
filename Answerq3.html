@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<HTML>
+	<head>
+		<meta charset = "UTF-8">
+		<title>大問[3]解説</title>
+		<link rel = "stylesheet" href = "./css/Kaitou.css">
+		<link rel = "stylesheet" href = "./css/Common.css">
+		<script type="text/javascript" async
+		  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_CHTML">
+		</script>
+	</head>
+
+	<body id = "q3">
+		<header>
+			<h1>新潟県令和2年実施教員採用試験問題(数学科)解答・解説</h1>
+		</header>
+		<nav><br>
+			目次
+			<ul>
+				<li><a href = "shiken_2020_Home.html">Home</a></li>
+				<li><a href = "shiken_2020_ichiran.html">問題一覧</a></li>
+				<dl>
+					<dt>大問1</dt>
+					<dd><a href = "Answerq1-1.html#q1-1">1-1</a></dd>
+					<dd><a href = "Answerq1-2.html#q1-2">1-2</a></dd>
+					<dd><a href = "Answerq1-3.html#q1-3">1-3</a></dd>
+					<dd><a href = "Answerq1-4.html#q1-4">1-4</a></dd>
+					<dd><a href = "Answerq1-5.html#q1-5">1-5</a></dd>
+					<dd><a href = "Answerq1-6.html#q1-6">1-6</a></dd>
+					<dd><a href = "Answerq1-7.html#q1-7">1-7</a></dd>
+					<dd><a href = "Answerq1-8.html#q1-8">1-8</a></dd>
+					<dt><a href = "Answerq2.html#q2">大問2</a></dt>
+					<dd>2-1</dd>
+					<dd>2-2</dd>
+					<dt><a href = "Answerq3.html#q3">大問3</a></dt> <dd>↑今ココ!!</dd>
+					<dd>3-1</dd>
+					<dd>3-2</dd>
+					<dd>3-3</dd>
+					<dt><a href = "Answerq4.html#q4">大問4</a></dt>
+					<dd>4-1</dd>
+					<dd>4-2</dd>
+					<dt><a href = "Answerq5.html#q5">大問5</a></dt>
+					<dd>5-1</dd>
+					<dd>5-2</dd>
+				</dl>
+				<li><a href = "hosokusetsumei.html">補足説明</a></li>
+			</ul>
+		</nav>
+		<div class = "bunshou">
+			<section>
+				<section>
+					<h2>問題</h2>
+					<p>[3]座標平面上で, 原点 \(O\) で \(x\) 軸に接し, 点 \((0,1)\) を中心とする半径1の円を \(C\) とする。第1象限にある \(C\) 上の点 \(A\) と
+						原点Oを通る直線と \(x\) 軸の正の向きとのなす角を \(\theta\) とする。
+						また, \(C\) 上の点\(B\) を, \(C\) の点 \(A\) における法線が \(\angle OAB\) の二等分線となるようにとる。
+						このとき, 次の(1)～(3)に答えなさい。</p>
+					<p>(1) \(\triangle\)\(OAB\) は二等辺三角形であることを証明しなさい。</p>
+					<p>(2) \(\triangle\)\(OAB\) の面積 \(S\) を \(\theta\) を用いて表しなさい。</p>
+					<p>(3) \(\displaystyle \lim_{\theta \to \frac{\pi}{2}-0} \frac{S}{\frac{\pi}{2}-\theta}\) を求めなさい。</p>
+				</section>
+				<hr>
+				<h1>(1)</h1>
+				<section id = "houshin">
+					<section id = "Attention">
+						<h2>注目ポイント！</h2>
+						<p>二等辺三角形を証明</p>
+					</section>
+					
+					<img src = "./image/arrow.png" width = "200" height = "100" alt = "⇒">
+					
+					<section id = "first_step">
+						<h2>解答への第一歩</h2>
+						<p><strong><div class = "term">対象の三角形の2辺 or 2角が等しいことを証明</div></strong></p>
+					</section>
+				</section>
+			<section>
+				<img src = "./image/3-1start.png" width = "569" height = "455" alt = "元の状態">
+				<p> \(\triangle OAB\) において, 頂点 \(B, O\) から, 円の中心Cに補助線を引くと, <br>
+				\(BC = OC･･･➀\)</p>
+				<img src = "./image/3-1second.png" width = "569" height = "455" alt = "補助線2本引いた">
+				<p>\(➀\)より,  \(\angle CBO = \angle COB･･･➀'\)<br>
+				また, 頂点 \(A\) から円の中心Cに補助線を引くと</p>
+				<img src = "./image/3-1third.png" width = "569" height = "455" alt = "補助線さらに1本引いた">
+				<p> \(\begin{eqnarray}
+						AC &=& BC ･･･➁ \\
+						AC &=& OC ･･･➂
+					\end{eqnarray}\)</p>
+				<p>\(➁\)より \(\angle CAB = \angle CBA ･･･➁'\)<br>
+				\(➂\)より \(\angle COA = \angle CAO ･･･➂'\)</p>
+				<p>\(➁',➂'\)より \(\angle CBO + \angle CBA = \angle COB + \angle COA\)<br>
+				以上より</p>
+				<p>\(\angle ABO = \angle AOB \)<br>
+				であるから,  \(\angle OAB\) は二等辺三角形である。</p>
+				<hr>
+			</section>
+			
+			<h1>(2)</h1>
+				<section id = "houshin">
+					<section id = "Attention">
+						<h2>注目ポイント！</h2>
+						<p>面積 \(S\) を \(θ\) を用いて表す</p>
+					</section>
+					
+					<img src = "./image/arrow.png" width = "200" height = "100" alt = "⇒">
+					
+					<section id = "first_step">
+						<h2>解答への第一歩</h2>
+						<p><strong><div class = "term">三角形の辺も \(θ\) を用いて表す</div></strong></p>
+					</section>
+				</section>
+			<section>
+				<img src = "./image/3-2.png" width = "569" height = "455" alt = "円と接線">
+				<p>条件より \(\angle ABO = θ\) である。</p>
+				<p>正弦定理より<br>
+				\(\begin{eqnarray}
+					AB &=& 2\sin{\theta} \\
+					BO &=& 2\sin{2\theta}
+				\end{eqnarray}\)</p>
+				<p>以上より<br>
+				\(\begin{eqnarray}
+					S &=& \frac{1}{2}AO・BO・\sin{\theta} \\
+					  &=& \frac{1}{2}・2\sin{\theta}・2\sin{2\theta}・\sin{\theta}\\
+					S &=& 4\sin^3{\theta}\cos{\theta}
+				\end{eqnarray}\)</p>
+				<hr>
+			</section>
+			
+			<h1>(3)</h1>
+				<section id = "houshin">
+					<section id = "Attention">
+						<h2>注目ポイント！</h2>
+						<p>三角関数の極限を求める</p>
+					</section>
+					
+					<img src = "./image/arrow.png" width = "200" height = "100" alt = "⇒">
+					
+					<section id = "first_step">
+						<h2>解答への第一歩</h2>
+						<p><strong><div class = "term">不定形とならないように引数を変える</div></strong></p>
+					</section>
+				</section>
+			<section>
+				<p>(2)より, \(S = 4\sin^3{\theta}\cos{\theta}\) である。</p>
+				<p>ここで,<br>
+				\(\begin{equation}
+					\left \{
+						\begin{array}{l}
+							\sin{\theta} &=& \cos{\left(\large \frac{\pi}{2}\normalsize -\theta\right)} \\
+							\cos{\theta} &=& \sin{\left(\large \frac{\pi}{2}\normalsize -\theta\right)} \\
+						\end{array}
+					\right.
+				\end{equation}\)<br>
+				であるから,</p>
+				<p>\(S = 4\cos^3{\left(\large \frac{\pi}{2}\normalsize -\theta\right)}\sin{\left(\large \frac{\pi}{2}\normalsize -\theta\right)}\)<br>
+				以上より, <br>
+				\(\displaystyle \begin{eqnarray}
+				&&   \lim_{\theta \to \frac{\pi}{2}-0} \frac{4\cos^3{\left(\large \frac{\pi}{2}\normalsize -\theta\right)}\sin{\left(\large \frac{\pi}{2}\normalsize -\theta\right)}}{\large \frac{\pi}{2}\normalsize -\theta} \\ 
+				&=& \lim_{\theta \to \frac{\pi}{2}-0} 4\cos^3{\left(\large \frac{\pi}{2}\normalsize -\theta\right)}\frac{\sin{\left(\large \frac{\pi}{2}\normalsize -\theta\right)}}{\large \frac{\pi}{2}\normalsize -\theta} \\
+				&=& 4\cos^3{0}・1 \\
+				&=& 4
+				\end{eqnarray}\) 
+				<hr>
+			</section>
+			<hr>		
+			<a href = "shiken_2020_ichiran.html"><h2 id = "back_ichiran">＞＞問題一覧ページに戻る＜＜</h1></a>
+		</div>
+	</body>
+</HTML>
